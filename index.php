@@ -372,61 +372,6 @@ $from = "example@email.com";
 }
 }
 
- /*    $statusMsg = '';
-  $msgClass = '';
-  if (isset($_POST['sub'])) {
- 
-    // Get the submitted form data
-    $email = $_POST['email'];
-    $name = $_POST['name'];
-    $subject = 'You have a new  Covid-19Tracker Subscriber Request';
-    //   $message ='please verify by following this link ';
-    $message = "<html><head>
-<title>Your email at the time</title>
-</head>
-<body>
-</body>";
-    $sublink = 'ur page index goes here ';
-    //  $subject = $_POST['subject'];
-    //    $message = $_POST['message'];
-
-    // Check whether submitted data is not empty
-    if (!empty($email) && !empty($name)) {
-
-      if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-        $statusMsg = 'Please enter your valid email.';
-        $msgClass = 'errordiv';
-      } else {
-        // Recipient email
-        $toEmail = "example@email.com";
-        $emailSubject = 'Subscribe Request Submitted by ' . $name;
-        $htmlContent = '<h2>Contact Request Submitted</h2>
-                <h4>requesting Name: </h4><p>' . $name . ' </p>
-                <h4>requsting Email: </h4><p>' . $email . '</p>
-                <h4>Subject: </h4><p>' . $subject . '</p>
-                <h4>Message: </h4><p>' . $message . '<br>' . $sublink . '</p>';
-
-        // Set content-type header for sending HTML email
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $header = "From: $noreply@intaxfin.com\nMIME-Version: 1.0\nContent-Type: text/html; charset=utf-8\n";
-        // Additional headers
-        $headers .= 'From: ' . $name . '<' . $email . '>' . "\r\n";
-
-        // Send email
-        if (mail($toEmail, $emailSubject, $htmlContent, $headers)) {
-          $statusMsg = 'Your contact request has been submitted successfully !';
-          $msgClass = 'succdiv';
-        } else {
-          $statusMsg = 'Your contact request submission failed, please try again.';
-          $msgClass = 'errordiv';
-        }
-      }
-    } else {
-      $statusMsg = 'Please fill all the fields.';
-      $msgClass = 'errordiv';
-    }
-  }*/
   ?>
  
 
