@@ -2,7 +2,7 @@
 
 https://seniorspring2020.000webhostapp.com/index.php
 
-Covid-19 Tracker website, written in Vanilla PHP
+Covid-19 Tracker website, written in Vanilla PHP.
 
 000webhost is used to host this website.
 
