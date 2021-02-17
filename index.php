@@ -3,7 +3,6 @@
 include '../back/php.php';
 
 //header("Content-Type: application/json; charset=UTF-8");
-
 ?>
 <!doctype html>
 <html lang="en">
