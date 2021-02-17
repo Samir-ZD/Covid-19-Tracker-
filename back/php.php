@@ -24,8 +24,7 @@ foreach ($data  as $key => $value) {
     $total_rec += $value[$days_count]['recovered'];
     $total_death += $value[$days_count]['deaths'];
 }
-//$image = 'https://corona.lmao.ninja/assets/img/flags/lb.png';
-//$img = base64_encode(file_get_contents($image));
+
 ?>
 
 
