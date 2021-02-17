@@ -1,4 +1,4 @@
-# Covid-19-Tracker-
+# Covid-19-Tracker
 
 https://seniorspring2020.000webhostapp.com/index.php
 
